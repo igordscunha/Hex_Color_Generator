@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.major{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40rem;
+}
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 165px;
+    font-family: Verdana;
+    font-weight: 100;
+}
+
+.functionaly{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.containergen{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#choosencolor{
+    display: flex;
+    height: 35%;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: Verdana;
+    letter-spacing: 0.4vh;
+}
+
+#generatedmessage{
+    text-decoration: overline;
+}
+
+#buttonc{
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Verdana;
+}
+
+#buttonc:hover{
+    background-color: darkseagreen;
+}
+
+#buttonc:active{
+    background-color: lightslategrey;
+}
+
+.vis{
+    display: block;
+}
+
+#inv{
+    display: none;
+}
